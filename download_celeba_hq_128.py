@@ -72,7 +72,7 @@ def main():
     root = args.root
     kaggle_dataset = args.kaggle_dataset
 
-    download_dir = os.path.join(root, "celebahq-256")
+    download_dir = os.path.join(root, "celebahq-256/celeba_hq_256")
     output_dir = os.path.join(root, "celebahq-128")
 
     check_kaggle_cli()
